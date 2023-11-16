@@ -15,7 +15,7 @@ spec:
       containers:
       - name: my-app
         image: jaisherma/todoapp:latest
-        imagePullPolicy: ifnotpresent 
+        imagePullPolicy: ifNotPresent 
         ports:
         - containerPort: 7777
         env:
